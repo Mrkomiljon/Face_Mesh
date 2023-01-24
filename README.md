@@ -15,3 +15,8 @@ For 3D face landmarks we employed transfer learning and trained a network with s
 The 3D landmark network receives as input a cropped video frame without additional depth input. The model outputs the positions of the 3D points, as well as the probability of a face being present and reasonably aligned in the input. A common alternative approach is to predict a 2D heatmap for each landmark, but it is not amenable to depth prediction and has high computational costs for so many points. We further improve the accuracy and robustness of our model by iteratively bootstrapping and refining predictions. That way we can grow our dataset to increasingly challenging cases, such as grimaces, oblique angle and occlusions.
 
 You can find more information about the face landmark model in this [paper](https://arxiv.org/abs/1907.06724).
+# OUTPUT 
+> Real image
+![2](https://user-images.githubusercontent.com/92161283/214234073-0a4485dc-0fa1-46fb-8c08-e66792295768.png)
+> real output
+![2](https://user-images.githubusercontent.com/92161283/214234219-b1c26e9e-4ca6-465e-b330-9c9f9d14dc6d.png)
