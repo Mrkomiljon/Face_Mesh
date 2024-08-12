@@ -16,9 +16,9 @@ The 3D landmark network receives as input a cropped video frame without addition
 
 You can find more information about the face landmark model in this [paper](https://arxiv.org/abs/1907.06724).
 # OUTPUT 
-> Real image
+## Real image
 ![2](https://user-images.githubusercontent.com/92161283/214234073-0a4485dc-0fa1-46fb-8c08-e66792295768.png)
-> real output
+## Real output
 ![2](https://user-images.githubusercontent.com/92161283/214234219-b1c26e9e-4ca6-465e-b330-9c9f9d14dc6d.png)
 
 [Source](https://google.github.io/mediapipe/solutions/face_mesh.html)
